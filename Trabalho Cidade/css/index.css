@@ -2,6 +2,7 @@
    
        body{
         margin:0 auto;
+        
        } 
     
     ul {
@@ -43,6 +44,15 @@
   
       .logo{
         padding-top: 10px;
+      }
+      
+      .navegacao{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      .p{
+    background-image: url(../img/topo_3_19.jpg);
+
       }
 
   
