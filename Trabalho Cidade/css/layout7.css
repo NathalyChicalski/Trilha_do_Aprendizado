@@ -2,11 +2,7 @@
    
        body{
         margin:0 auto;
-        background-image: url(../img/topo_3_19.jpg);
-        min-height: 100%;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
+        
        } 
     
     ul {
@@ -53,9 +49,10 @@
       .navegacao{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       }
-
-      
-
+    .conteudo{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      h1{
  
-
-  
+        
+      }
