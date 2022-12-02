@@ -1,12 +1,36 @@
 body{
-    background-image: url(/img/GettyImages-1314656208.webp);
+    background: rgba(0, 0, 0, 0.7) url(/img/GettyImages-1314656208.webp);
+    height:100%;
     background-size: cover;
     background-repeat: no-repeat;
-        font-family: Arial, Helvetica, sans-serif;
+    background-blend-mode: darken;
+    font-family: Arial, Helvetica, sans-serif;
         width: 90%; 
         margin: 0 auto;
 }
 
-a{
-    color:white;
+
+.navegacao{
+    overflow: hidden;
+    padding-top: 100px;
 }
+.navegacao a{
+    float:right; 
+    color: rgb(173,173,173); 
+    text-decoration: none;
+    padding:10px;
+}
+.navegacao a:hover{ 
+    color:white;
+    background-color: black; 
+}
+.button {
+    background-image: url(/img/Design\ sem\ nome\ \(1\).png);
+    border: none;
+    display: inline-block;
+    padding: 15px 32px;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+  }

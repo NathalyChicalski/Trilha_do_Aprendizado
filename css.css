@@ -8,6 +8,21 @@ body{
         color: #4a4e69;
 }
 
-a{
+.navegacao{
+    overflow: hidden;
+    padding-top: 100px;
+}
+.navegacao a{
+    float:right; 
+    color: rgb(173,173,173); 
+    text-decoration: none;
+    padding:10px;
+}
+.navegacao a:hover{ 
     color:white;
+    background-color: black; 
+}
+a{
+    color: white;
+    text-decoration: none;
 }
