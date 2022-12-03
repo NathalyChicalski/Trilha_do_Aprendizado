@@ -10,6 +10,7 @@ body{
 
 .navegacao{
     overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
     padding-top: 100px;
 }
 .navegacao a{
@@ -37,3 +38,10 @@ a{
     color: #9a8c98;
 }
 
+@media screen and (max-width:600px){ /*alteração no conteúdo conforme muda a tela*/
+    .principal, .conteudo{
+        width:100%; 
+        flex-direction: column;
+        padding: 0px;
+    }
+}

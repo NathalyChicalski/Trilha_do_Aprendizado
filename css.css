@@ -11,6 +11,7 @@ body{
 .navegacao{
     overflow: hidden;
     padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .navegacao a{
     float:right; 
@@ -28,12 +29,18 @@ a{
     color: white;
     text-decoration: none;
 }
-
 .h1{
     font-family: "Beaufort for LOL";
     font-style: italic, serif;
     font-weight: bold;
     font-size: 80px;
     color: #9a8c98;
+}
+@media screen and (max-width:600px){ /*alteração no conteúdo conforme muda a tela*/
+    .principal, .conteudo{
+        width:100%; 
+        flex-direction: column;
+        padding: 0px;
+    }
 }
 

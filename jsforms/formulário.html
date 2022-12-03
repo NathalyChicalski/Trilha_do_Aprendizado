@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="RDE05_Ex08.css">
+    <script type="text/javascript" src="RDE05_Ex08.js"></script>
+
+</head>
+<body>
+  <h1>
+    Interessado no Projeto Trilha do Aprendizado
+  </h1>
+  <form name="formulario" action="cadastra.php" method="post" onsubmit="return Enviar()">
+   <label for="nome"> Nome completo </label><br>
+   <input type="text" id="nome" placeholder="Digite o seu nome"><br><br>
+   <label for="email">Email </label><br>
+   <input type="email" id="email" placeholder="email@email.com"><br><br>
+   <label for="datanasc">Data de nascimento </label><br>
+   <input type="date" id="datanasc" ><br><br>
+    <textarea id="comentario" placeholder="Deixe o seu comentario"> </textarea><br>
+    <input type="submit" class="Enviar" onclick="Enviar" value="Enviar"><br>
+
+  </form>
+</body>
+</html>

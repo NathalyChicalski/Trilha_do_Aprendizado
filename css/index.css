@@ -1,19 +1,49 @@
+html{
+    scroll-behavior: smooth;
+}
+#img{ 
+
+    background-position: center;
+   background-size: cover;
+}
+#img > img{
+    width: 60px;
+    animation: jumping 1s linear infinite;
+    cursor: pointer;
+    border: none;
+    justify-content: center;
+    align-items: flex-end;
+    display: block;
+    margin: 0 auto;
+}
+
+
+@keyframes jumping {
+    from {transform: translateY(-15px)};
+    50% {transform: translateY(0)};
+    to {transform: translateY(-15px)};
+    }
+    #perfil{
+        height: 100vh;
+    }
+
 body{
     background: rgba(0, 0, 0, 0.7) url(/img/GettyImages-1314656208.webp);
-    height:100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: darken;
     font-family: Arial, Helvetica, sans-serif;
-        width: 90%; 
-        margin: 0 auto;
+    width: 90%; 
+    margin: 0 auto;
+        justify-content: center;
+        align-items: flex-end;
+        height: 100%;
 }
 
 
 .navegacao{
     overflow: hidden;
     padding-top: 100px;
-    background-color: ;
 }
 .navegacao a{
     float:right; 
@@ -25,6 +55,7 @@ body{
     color:white;
     background-color: black; 
 }
+ 
   h1{
     font-family: "Beaufort for LOL";
     font-style: italic, serif;
@@ -39,4 +70,16 @@ body{
     color: rgb(173,173,173); 
     text-align: center;
   }
+
+
+  @media screen and (max-width:600px){ /*alteração no conteúdo conforme muda a tela*/
+    .principal, .conteudo{
+        width:100%; 
+        flex-direction: column;
+        padding: 0px;
+    }
+}
+
+
+
 
