@@ -13,6 +13,7 @@ body{
 .navegacao{
     overflow: hidden;
     padding-top: 100px;
+    background-color: ;
 }
 .navegacao a{
     float:right; 
@@ -24,13 +25,18 @@ body{
     color:white;
     background-color: black; 
 }
-.button {
-    background-image: url(/img/Design\ sem\ nome\ \(1\).png);
-    border: none;
-    display: inline-block;
-    padding: 15px 32px;
-   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-   justify-content: center;
-   align-items: center;
-   flex-direction: row;
+  h1{
+    font-family: "Beaufort for LOL";
+    font-style: italic, serif;
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;
+    color: #9a8c98;
   }
+  p{
+    font-family: "Spiegel", "Arial Narrow", Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(173,173,173); 
+    text-align: center;
+  }
+
