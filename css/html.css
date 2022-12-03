@@ -23,6 +23,17 @@ body{
     background-color: black; 
 }
 a{
-   color: white;
+    font-family: "Spiegel", "Arial Narrow", Arial, sans-serif;
+    font-size: 18px;
+    color: white;
     text-decoration: none;
 }
+
+.h1{
+    font-family: "Beaufort for LOL";
+    font-style: italic, serif;
+    font-weight: bold;
+    font-size: 80px;
+    color: #9a8c98;
+}
+
