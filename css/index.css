@@ -92,6 +92,12 @@ header{
 #c{
     color: #4a4e69;
     text-align: justify;
+
+}
+.foto{
+    padding: 20px;
+    float: right;
+
 }
   footer{
     text-align: center;
@@ -100,7 +106,7 @@ header{
     justify-content: center;
     color: rgb(173,173,173);
     display: flex;
-    background-color: #4a4e69;
+    background-color: #1d2d44;
     padding: 50px;
   }
 
