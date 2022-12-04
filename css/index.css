@@ -43,7 +43,7 @@ body {
     }
 
 header{
-    background: rgba(0, 0, 0, 0.7) url(/img/GettyImages-1314656208.webp);
+    background: rgba(0, 0, 0, 0.7) url(../img/GettyImages-1314656208.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: darken;
