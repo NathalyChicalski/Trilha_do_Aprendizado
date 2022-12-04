@@ -29,11 +29,10 @@ body {
     width: 60px;
     animation: jumping 1s linear infinite;
     cursor: pointer;
-    border: none;
-    justify-content: center;
-    align-items: flex-end;
-    display: block;
-    margin: 0 auto;
+    border: none; 
+    display: flex; 
+    bottom: 0px;
+    margin: auto;
 }
 
 
