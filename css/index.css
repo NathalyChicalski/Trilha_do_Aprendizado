@@ -15,11 +15,7 @@ body {
 .conteudo{
     background-color: #f0e6ef;
     padding: 210px 300px 210px 300px;
-
-
 }
-
-
 #img{ 
 
     background-position: center;
@@ -34,8 +30,6 @@ body {
     bottom: 0px;
     margin: auto;
 }
-
-
 @keyframes jumping {
     from {transform: translateY(-15px)};
     50% {transform: translateY(0)};
