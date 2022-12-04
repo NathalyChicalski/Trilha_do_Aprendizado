@@ -9,7 +9,6 @@ body {
     background-color: #f0e6ef;
     height: 100vh;
     display: flex;
-
   }
 
 .conteudo{
@@ -26,9 +25,10 @@ body {
     animation: jumping 1s linear infinite;
     cursor: pointer;
     border: none; 
-    display: flex; 
-    bottom: 0px;
-    margin: auto;
+    position: absolute;
+    left: 620px; 
+    right: 500px;
+    top: 600px;
 }
 @keyframes jumping {
     from {transform: translateY(-15px)};
