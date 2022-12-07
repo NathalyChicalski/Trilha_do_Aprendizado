@@ -5,7 +5,7 @@ body {
     margin: 0 auto; 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
-#perfil{
+.perfil{
     background-color: #f0e6ef;
     height: 100vh;
     display: flex;
@@ -24,8 +24,9 @@ body {
     animation: jumping 1s linear infinite;
     cursor: pointer;
     border: none; 
+    display: flex;
     position: absolute;
-    left: 620px; 
+    left: 900px; 
     right: 500px;
     top: 600px;
 }
